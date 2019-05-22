@@ -1,0 +1,24 @@
+.Header{
+  color: rgb(35, 46, 35);
+  
+}
+
+.header-container{
+  min-height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#CV{
+  margin-right:5px;
+}
+
+#Contact{
+  margin-right:5px;
+}
+
+#a{
+  text-decoration: none;
+}

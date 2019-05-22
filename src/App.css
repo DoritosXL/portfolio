@@ -30,4 +30,24 @@
   to {
     transform: rotate(360deg);
   }
+
+  
+}
+
+#page-container {
+  position: relative;
+  min-height: 95vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;            /* Footer height */
+  
+  
+  
+  text-align: center;
 }
