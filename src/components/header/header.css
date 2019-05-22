@@ -1,5 +1,5 @@
 .Header{
-  color: rgb(35, 46, 35);
+  color: black;
   
 }
 
@@ -9,6 +9,10 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+#Over-mij{
+  margin-right:5px;
 }
 
 #CV{
