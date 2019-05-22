@@ -1,6 +1,5 @@
 .Header{
   color: black;
-  
 }
 
 .header-container{
@@ -9,18 +8,28 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
-#Over-mij{
-  margin-right:5px;
+.header-container :hover{
+  /* background-color: black; */
+  color: green;
 }
 
-#CV{
-  margin-right:5px;
+#persona{
+  margin-right:15px;
 }
 
-#Contact{
-  margin-right:5px;
+#projecten{
+  margin-right:15px;
+}
+
+#cv{
+  margin-right:15px;
+}
+
+#contact{
+  margin-right:15px;
 }
 
 #a{
