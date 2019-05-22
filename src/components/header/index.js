@@ -6,6 +6,9 @@ function Header() {
     <div className="Header">
       <div className="header-container">
 
+        <div id="Over-mij">
+          <a id="a" href="">Over mij</a>
+        </div>
         <div id="CV">
           <a id="a" href="">CV</a>
         </div>
