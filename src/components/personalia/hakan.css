@@ -1,0 +1,18 @@
+#wie-ben-ik{
+  border: 1px solid black;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 10px 0px 10px;
+  display:flex;
+}
+#headshot{
+  border: 1px solid black;
+  width:25%;
+}
+#headshot-beschrijving{
+  border: 1px solid black;
+  width:25%;
+}
+#spacer{
+  border: 1px solid red;
+  width:50%;
+}

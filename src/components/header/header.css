@@ -1,5 +1,5 @@
 .Header{
-  color: black;
+  text-decoration: none;
 }
 
 .header-container{
@@ -11,7 +11,7 @@
   border-bottom: 1px solid black;
 }
 
-.header-container :hover{
+#a:hover{
   /* background-color: black; */
   color: green;
 }
@@ -34,4 +34,5 @@
 
 #a{
   text-decoration: none;
+  color: white;
 }

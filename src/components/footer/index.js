@@ -1,11 +1,13 @@
 import React from 'react';
 import './footer.css';
+import linkedin from '../img/social/linkedin.svg';
+import github from '../img/social/github.svg';
 
 function Footer() {
   return (
     <div className="Footer">
-      {/* <img src={this.props.img}/> */}
-      {/* <img src="../img/linkedin.png"/> */}
+      <a href="https://www.linkedin.com/in/hakan-taskirmaz-1920b845"><img alt="Linkedin" src={linkedin} /></a>
+      <a href="https://github.com/doritosxl"><img alt="github" src={github} /></a>
     </div>
   );
 }
