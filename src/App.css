@@ -1,3 +1,8 @@
+#container{
+  padding-right:3vw;
+  padding-left:3vw;
+}
+
 .App {
   text-align: center;
   
@@ -35,14 +40,8 @@
   
 }
 
-#page-container {
-  position: relative;
-  min-height: 95vh;
-}
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-#footer {
+
+#footer-container {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -51,4 +50,64 @@
   
   
   text-align: center;
+}
+
+
+
+
+.header-container{
+  text-decoration: none;
+  min-height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  
+}
+
+#a:hover{
+  /* background-color: black; */
+  color: white;
+  /* background-color: white; */
+  border-radius: 5px;
+}
+
+#personalia{
+  text-decoration: none;
+  margin-right:15px;
+  
+}
+.koppen{
+  text-decoration: none;
+  color: grey;
+}
+
+.koppen:hover{
+   /* background-color: black; */
+   color: white;
+   /* background-color: white; */
+   border-radius: 5px;
+}
+
+#projecten{
+  text-decoration: none;
+  margin-right:15px;
+}
+
+#cv{
+  text-decoration: none;
+  margin-right:15px;
+}
+
+#contact{
+  text-decoration: none;
+  margin-right:15px;
+}
+
+#a{
+  text-decoration: none;
+  color: grey;
 }

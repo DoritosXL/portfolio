@@ -13,10 +13,12 @@
 
 #a:hover{
   /* background-color: black; */
-  color: green;
+  color: white;
+  /* background-color: white; */
+  border-radius: 5px;
 }
 
-#persona{
+#personalia{
   margin-right:15px;
 }
 
@@ -34,5 +36,5 @@
 
 #a{
   text-decoration: none;
-  color: white;
+  color: grey;
 }
