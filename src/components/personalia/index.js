@@ -9,15 +9,20 @@ class Hakan extends React.Component {
         <div className="body-container">
 
           <div id="wie-ben-ik">
+            <div id="spacer">
+
+            </div>
             <div id="headshot">
               <img alt="hakan" src={hakan} width="300px" height="auto" />
             </div>
+
+
 
             <div id="headshot-beschrijving">
               Mijn naam is Hakan Taskirmaz.
             </div>
             <div id="spacer">
-
+              
             </div>
 
 

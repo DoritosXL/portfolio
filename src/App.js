@@ -33,6 +33,12 @@ class App extends Component {
             </div>
           </div>
 
+          <Route path="/personalia" exact strict render={
+              () => {
+                return (<Personalia />);
+              }
+            } />
+
           <div id="body-container">
 
             <Route path="/" exact strict render={
@@ -41,11 +47,7 @@ class App extends Component {
               }
             } />
 
-            <Route path="/personalia" exact strict render={
-              () => {
-                return (<Personalia />);
-              }
-            } />
+            
 
           </div>
 

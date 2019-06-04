@@ -1,18 +1,22 @@
 #wie-ben-ik{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px 0px 10px 0px;
   padding: 0px 10px 0px 10px;
   display:flex;
 }
 #headshot{
-  border: 1px solid black;
-  width:25%;
+  /* border: 1px solid black; */
+  flex: 30%;
+  /* width:25%; */
 }
 #headshot-beschrijving{
-  border: 1px solid black;
-  width:25%;
+  /* border: 1px solid black; */
+  flex: 30%;
+  /* width: 50%; */
+  /* text-align: left; */
 }
 #spacer{
-  border: 1px solid red;
-  width:50%;
+  /* border: 1px solid red; */
+  flex: 20%;
+  /* width: 25%; */
 }
