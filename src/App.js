@@ -2,10 +2,22 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/index.js'
 import Personalia from './components/personalia/index.js';
+import Contact from './components/contact/index.js'
 import Body from './components/body/index.js';
 import Footer from './components/footer/index.js'
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+
+// CV
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
+
+// google analytics
+import ReactGA from 'react-ga';
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-141700918-1');
+  ReactGA.pageview('/');
+}
 
 class App extends Component {
   render() {
@@ -24,7 +36,7 @@ class App extends Component {
               }>Personalia</NavLink>
             </div>
             <div id="contact">
-              <NavLink className="koppen" to="/Contact" exact activeStyle={
+              <NavLink className="koppen" to="/contact" exact activeStyle={
                 { color: 'white' }
               }>Contact</NavLink>
             </div>
@@ -34,10 +46,10 @@ class App extends Component {
           </div>
 
           <Route path="/personalia" exact strict render={
-              () => {
-                return (<Personalia />);
-              }
-            } />
+            () => {
+              return (<Personalia />);
+            }
+          } />
 
           <div id="body-container">
 
@@ -47,13 +59,19 @@ class App extends Component {
               }
             } />
 
-            
+            <Route path="/contact" exact strict render={
+              () => {
+                return (<Contact />);
+              }
+            } />
+
+
 
           </div>
 
           <div id="footer-container">
 
-            <Footer/>
+            <Footer />
           </div>
 
         </Router>

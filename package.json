@@ -8,7 +8,9 @@
     "@material-ui/styles": "^4.0.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-count": "^0.2.4",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
