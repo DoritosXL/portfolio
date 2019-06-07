@@ -13,14 +13,14 @@ import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
 // google analytics
 import ReactGA from 'react-ga';
 
-
 function initializeReactGA() {
   ReactGA.initialize('UA-141700918-1');
-  ReactGA.pageview('/personalia');
+  ReactGA.pageview('/');
 }
 
 class App extends Component {
   render() {
+    initializeReactGA()
     return (
       <div id="container">
         <Router>
