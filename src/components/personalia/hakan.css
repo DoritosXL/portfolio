@@ -4,6 +4,7 @@
 
 #headshot-beschrijving{
   margin: 10px auto 15px auto;
+  color:white;
 }
 
 @media only screen and (max-width: 400px) {
