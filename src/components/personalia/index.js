@@ -5,7 +5,7 @@ import hakan from '../img/hakan.jpg';
 class Hakan extends React.Component {
   render() {
     return (
-      <div className="body">
+      <div id="body">
 
         <div id="headshot">
           <img id="headshot_img" alt="hakan" src={hakan} height="auto" />

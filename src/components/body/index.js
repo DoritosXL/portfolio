@@ -5,8 +5,9 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { TableRow, Table } from '@material-ui/core';
 
-// import ML_img from '../img/social/ML.png'
-// import discord_img from '../img/projects/discord.png'
+import discord_img from '../img/projects/discord.png'
+
+import ML_img from '../img/projects/ML.png'
 
 const project_D = `Project D gaat over 'Machine Learning'. In dit project is gebruik gemaakt van LSTM (Long short-term Memory), 
                   om een voorspelling te doen op de toekomstige voorraad. `;
@@ -25,7 +26,7 @@ class Body extends React.Component {
             <Project
               title={
                 <a id="link" href="https://github.com/UNRULYEON/INFPRJ01D" target="_blank" rel="noopener noreferrer">
-                  <img src="" alt="ML"></img>
+                  <img id="project_img" src={ML_img} alt="ML"></img>
                 </a>}
               description={project_D} />
 
@@ -33,7 +34,7 @@ class Body extends React.Component {
             <Project
               title={
                 <a id="link" href="https://github.com/DoritosXL/discord_bot" target="_blank" rel="noopener noreferrer">
-                  <img src="" alt="Discord"></img>
+                  <img id="project_img" src={discord_img} alt="Discord"></img>
                 </a>}
               description={discord_bot} />
 
