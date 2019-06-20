@@ -12,7 +12,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div id="mail">Contact me via: info@hakan.life</div>
+        <div className="text" id="mail">Contact me via: info@hakan.life</div>
         {/* <TextField
           id="standard-name"
           label="Name"

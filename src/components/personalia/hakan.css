@@ -1,22 +1,44 @@
-#wie-ben-ik{
-  /* border: 1px solid black; */
-  margin: 10px 0px 10px 0px;
-  padding: 0px 10px 0px 10px;
-  display:flex;
-}
 #headshot{
-  /* border: 1px solid black; */
-  flex: 30%;
-  /* width:25%; */
+  margin: 10px auto 15px auto;
 }
+
 #headshot-beschrijving{
-  /* border: 1px solid black; */
-  flex: 30%;
-  /* width: 50%; */
-  /* text-align: left; */
+  margin: 10px auto 15px auto;
 }
-#spacer{
-  /* border: 1px solid red; */
-  flex: 20%;
-  /* width: 25%; */
+
+@media only screen and (max-width: 400px) {
+  .body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px auto 10px auto;
+  }
+  #headshot_img{
+    width: 150px;
+  }
 }
+
+@media only screen and (min-width: 400px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #headshot_img{
+    width: 300px;
+  }
+}
+
+
+
+#headshot{
+  /* display: inline; */
+}
+
+#headshot-beschrijving{
+  /* display: grid; */
+  /* direction: rtl; */
+}
+
+
+
+/* display: flex;
+  flex-direction: column-reverse; */

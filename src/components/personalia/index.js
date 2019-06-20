@@ -5,30 +5,14 @@ import hakan from '../img/hakan.jpg';
 class Hakan extends React.Component {
   render() {
     return (
-      <div className="Hakan">
-        <div className="body-container">
+      <div className="body">
 
-          <div id="wie-ben-ik">
-            <div id="spacer">
+        <div id="headshot">
+          <img id="headshot_img" alt="hakan" src={hakan} height="auto" />
+        </div>
 
-            </div>
-            <div id="headshot">
-              <img alt="hakan" src={hakan} width="300px" height="auto" />
-            </div>
-
-
-
-            <div id="headshot-beschrijving">
-              Mijn naam is Hakan Taskirmaz.
-            </div>
-            <div id="spacer">
-              
-            </div>
-
-
-          </div>
-
-
+        <div id="headshot-beschrijving">
+          Mijn naam is Hakan Taskirmaz.
         </div>
       </div >
     );

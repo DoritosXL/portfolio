@@ -1,0 +1,26 @@
+#project_specific {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px 25px 20px 25px;
+}
+
+@media only screen and (max-width: 400px) {
+  #project_specific {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* #project_element_item{
+    display: grid;
+    grid-template-columns: 1fr;
+  } */
+}
+
+#project_element_item{
+  margin: 10px auto 10px auto;
+}
+
+/* @media only screen and (min-width: 400px) {
+  
+} */
+

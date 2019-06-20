@@ -1,6 +1,21 @@
 #container{
   padding-right:3vw;
   padding-left:3vw;
+
+  display: flex;
+  /* min-height: 100vh; */
+  flex-direction: column;
+  
+}
+.content{
+  flex: 1 0 auto;
+  min-height: 88vh;
+}
+
+#footer {
+  height: 2.5rem;            /* Footer height */
+  text-align: center;
+  
 }
 
 .App {
@@ -41,16 +56,7 @@
 }
 
 
-#footer-container {
-  width: 94%;
-  position: absolute;
-  bottom: 0;
-  height: 2.5rem;            /* Footer height */
-  
-  
-  
-  text-align: center;
-}
+
 
 
 
@@ -110,4 +116,12 @@
 #a{
   text-decoration: none;
   color: grey;
+}
+
+.text{
+  color:white;
+}
+
+.border{
+  border: 1px solid white;
 }

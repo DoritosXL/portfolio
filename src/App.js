@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/header/index.js'
+// import Header from './components/header/index.js'
 import Personalia from './components/personalia/index.js';
 import Contact from './components/contact/index.js'
 import Body from './components/body/index.js';
@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 
 // CV
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
+// import ML from '../src/img/projects/ML.png';
 
 // google analytics
 import ReactGA from 'react-ga';
@@ -41,41 +42,33 @@ class App extends Component {
               }>Contact</NavLink>
             </div>
             <div id="cv">
-              <a className="koppen" id="a" href={cv} target="_blank">CV</a>
+              <a className="koppen" id="a" href={cv} target="_blank" rel="noopener noreferrer">CV</a>
             </div>
           </div>
 
-          <Route path="/personalia" exact strict render={
-            () => {
-              return (<Personalia />);
-            }
-          } />
-
-          <div id="body-container">
-
-            <Route path="/" exact strict render={
+          <div className="content">
+            <Route path="/personalia" exact strict render={
               () => {
-                return (<Body />);
+                return (<Personalia />);
               }
             } />
-
             <Route path="/contact" exact strict render={
               () => {
                 return (<Contact />);
               }
             } />
 
-
-
+            <Route path="/" exact strict render={
+              () => {
+                return (<Body />);
+              }
+            } />
           </div>
-
-          <div id="footer-container">
-
-            <Footer />
-          </div>
-
         </Router>
+        <footer id="footer">
 
+         <Footer/>
+        </footer>
       </div>
     );
   }
