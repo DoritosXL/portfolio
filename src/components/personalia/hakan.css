@@ -7,7 +7,7 @@
   color:white;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #body {
     display: flex;
     flex-direction: column-reverse;
@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 450px) {
   #body {
     display: grid;
     grid-template-columns: 1fr 1fr;
