@@ -7,18 +7,18 @@
   color:white;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
   #body {
     display: flex;
     flex-direction: column-reverse;
     margin: 10px auto 10px auto;
   }
   #headshot_img{
-    width: 150px;
+    width: 250px;
   }
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 800px) {
   #body {
     display: grid;
     grid-template-columns: 1fr 1fr;
