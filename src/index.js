@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Route, NavLink, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
+import { Route, NavLink, Switch, Redirect, HashRouter as Router } from 'react-router-dom';
 import app from './App';
 import * as serviceWorker from './serviceWorker';
 import personalia from './components/personalia';
 import body from './components/body';
 import contact from './components/contact';
+import opleiding from './components/opleiding'
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
 import Footer from './components/footer/index.js'
 
@@ -14,6 +15,7 @@ const App = app;
 const Personalia = personalia
 const Body = body;
 const Contact = contact;
+const Opleiding = opleiding;
 
 const NoMatch = "/*";
 
@@ -36,6 +38,11 @@ const routing = (
             { color: 'white' }
           }>Contact</NavLink>
         </div>
+        {/* <div id="opleiding">
+          <NavLink className="koppen" to="/opleiding" exact activeStyle={
+            { color: 'white' }
+          }>Opleiding</NavLink>
+        </div> */}
         <div id="cv">
           <a className="koppen" id="a" href={cv} target="_blank" rel="noopener noreferrer">CV</a>
         </div>
@@ -46,7 +53,8 @@ const routing = (
           <Route path="/personalia" component={Personalia} />
           {/* <Route path="/vaardigheden" component={skills} /> */}
           <Route path="/contact" component={Contact} />
-          <Route exact component={App} path="/*"/>
+          <Route path="/opleiding" component={Opleiding} />
+          <Route exact component={App} path="*"/>
         </Switch>
 
       </div>
