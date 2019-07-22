@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
 import './contact.css';
-// import TextField from '@material-ui/core/TextField';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
-
-
-// const handleChange = name => event => {
-//   setValues({ ...values, [name]: event.target.value });
-// };
 
 class Contact extends Component {
+  state = {
+    value: 'hi@hakan.life',
+    copied: false,
+  }
+
   render() {
     return (
       <div>
-        <div className="text" id="mail">Contact me via: info@hakan.life</div>
-        {/* <TextField
-          id="standard-name"
-          label="Name"
-          className="textfield"
-          value="value"
-          onChange={handleChange('name')}
-          margin="normal"
-        /> */}
+        
+        <div className="text" id="mail">
+          {/* <a href={`mailto:${this.state.value}`}>email</a> */}
+          <a>
+            <CopyToClipboard text={this.state.value}
+              onCopy={() => this.setState({ copied: true })}>
+              <span>Contact me via: hi@hakan.life</span>
+            </CopyToClipboard>
+            
+          </a>
+          <div>{this.state.copied ? <span style={{ color: 'white' }}>Copied mail!</span> : null}</div>
+        </div>
+
+
+        
+
+
       </div>
     );
   }
