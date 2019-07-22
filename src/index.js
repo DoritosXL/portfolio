@@ -17,8 +17,6 @@ const Body = body;
 const Contact = contact;
 const Opleiding = opleiding;
 
-const NoMatch = "/*";
-
 const routing = (
   <Router>
     <div id="container">
@@ -26,7 +24,7 @@ const routing = (
         <div id="projecten">
           <NavLink className="koppen" to="/" exact activeStyle={
             { color: 'white' }
-          }>Projecten</NavLink>
+          }>Project</NavLink>
         </div>
         <div id="personalia">
           <NavLink className="koppen" to="/personalia" exact activeStyle={

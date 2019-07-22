@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import './contact.css';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
-
 class Contact extends Component {
   state = {
     value: 'hi@hakan.life',
     copied: false,
+    copy: "Ctrl c",
   }
+
+  // copyFunction(){
+  //   return setTimeout(function(){ alert(this.state.copy) }, 000);
+  // }
 
   render() {
     return (
@@ -22,7 +26,7 @@ class Contact extends Component {
             </CopyToClipboard>
             
           </a>
-          <div>{this.state.copied ? <span style={{ color: 'white' }}>Copied mail!</span> : null}</div>
+          <div>{this.state.copied ? <span style={{ color: 'white' }}>Adres in klembord!</span> : null}</div>
         </div>
 
 
