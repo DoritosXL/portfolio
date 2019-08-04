@@ -2,3 +2,8 @@
   margin-top:5px;
   text-align: center;
 }
+
+#mail_link{
+  text-decoration: none;
+  color: white;
+}

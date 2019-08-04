@@ -22,7 +22,7 @@ class Contact extends Component {
           <a>
             <CopyToClipboard text={this.state.value}
               onCopy={() => this.setState({ copied: true })}>
-              <span>Contact me via: hi@hakan.life</span>
+              <span>Contact me via: <a id="mail_link" href="mailto:hi@hakan.life">hi@hakan.life</a></span>
             </CopyToClipboard>
             
           </a>
