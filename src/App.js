@@ -3,8 +3,6 @@ import './App.css';
 import Body from './components/body/index.js';
 
 
-// CV
-import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
 // import ML from '../src/img/projects/ML.png';
 
 // google analytics
