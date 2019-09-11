@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './project.css';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
 
 
 

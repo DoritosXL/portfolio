@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Route, NavLink, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
+import { Route, NavLink, Switch, BrowserRouter as Router } from 'react-router-dom';
 import app from './App';
 import * as serviceWorker from './serviceWorker';
 import personalia from './components/personalia';

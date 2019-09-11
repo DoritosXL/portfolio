@@ -1,9 +1,6 @@
 import React from 'react';
 import './body.css';
 import Project from '../project/index.js'
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import { TableRow, Table } from '@material-ui/core';
 
 import discord_img from '../img/projects/discord.png'
 
