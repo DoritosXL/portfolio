@@ -5,16 +5,16 @@ import { Route, NavLink, Switch, BrowserRouter as Router } from 'react-router-do
 import app from './App';
 import * as serviceWorker from './serviceWorker';
 import personalia from './components/personalia';
-import body from './components/body';
-import contact from './components/contact';
+// import body from './components/body';
+// import contact from './components/contact';
 import opleiding from './components/opleiding'
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
 import Footer from './components/footer/index.js'
 
 const App = app;
 const Personalia = personalia
-const Body = body;
-const Contact = contact;
+// const Body = body;
+// const Contact = contact;
 const Opleiding = opleiding;
 
 const routing = (
@@ -31,11 +31,11 @@ const routing = (
             { color: 'white' }
           }>Personalia</NavLink>
         </div>
-        <div id="contact">
+        {/* <div id="contact">
           <NavLink className="koppen" to="/contact" exact activeStyle={
             { color: 'white' }
           }>Contact</NavLink>
-        </div>
+        </div> */}
         {/* <div id="opleiding">
           <NavLink className="koppen" to="/opleiding" exact activeStyle={
             { color: 'white' }
@@ -50,7 +50,7 @@ const routing = (
           <Route exact path="/" component={App} />
           <Route path="/personalia" component={Personalia} />
           {/* <Route path="/vaardigheden" component={skills} /> */}
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/contact" component={Contact} /> */}
           <Route path="/opleiding" component={Opleiding} />
           <Route exact component={App} path="*"/>
         </Switch>

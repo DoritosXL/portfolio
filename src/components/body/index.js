@@ -8,6 +8,10 @@ import ML_img from '../img/projects/ML.png'
 
 import kapsalon_asya_img from '../img/projects/About.png'
 
+import project_C_img from '../img/projects/Artic.svg'
+
+const project_C = `Project C gaat over 'een React webshop'. Dit project is gebouwd met React en imiteert het uiterlijk van een autentieke webshop.`;
+
 const project_D = `Project D gaat over 'Machine Learning'. In dit project is gebruik gemaakt van LSTM (Long short-term Memory), 
                   om een voorspelling te doen op de toekomstige voorraad. `;
 
@@ -45,20 +49,27 @@ class Body extends React.Component {
                 <img id="project_img" src={kapsalon_asya_img} alt="Kapsalon Asya"></img>
               </a>
             } description={kapsalon_asya} />
-            
-            {/* Nieuwe project
+
+
+            <Project title={
+              <a id="link" href="https://github.com/DoritosXL/INFPRJ01C" target="_blank" rel="noopener noreferrer">
+                <img id="project_img" src={project_C_img} alt="Artic"></img>
+              </a>
+            } description={project_C}/>
+
+              {/* Nieuwe project
             <Project title={} description={} />*/}
           </div>
-
-
-
-
-
+  
+  
+  
+  
+  
         </div>
-      </div>
-    );
-  }
-}
-
-
-export default Body;
+        </div>
+        );
+      }
+    }
+    
+    
+    export default Body;
