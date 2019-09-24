@@ -1,5 +1,6 @@
 import React from 'react';
 import './body.css';
+import {Helmet} from 'react-helmet';
 import Project from '../project/index.js'
 
 import discord_img from '../img/projects/discord.png'
@@ -23,6 +24,10 @@ class Body extends React.Component {
   render() {
     return (
       <div className="body">
+        <Helmet>
+          <title>Hakan Taskirmaz Projecten</title>
+          <meta name="description" content="Projecten van Hakan Taskirmaz"/>
+        </Helmet>
         <h1>Projecten</h1>
         <div className="projecten">
 

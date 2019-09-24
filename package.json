@@ -8,6 +8,7 @@
     "@material-ui/icons": "^4.2.1",
     "@material-ui/styles": "^4.0.1",
     "gh-pages": "^2.0.1",
+    "helmet": "^3.21.1",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
     "react-count": "^0.2.4",

@@ -49,6 +49,13 @@
   }
 }
 
+@media only screen and (min-width: 2800px) {
+  #project_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
 #project_img{
   width: 180px;
 }
