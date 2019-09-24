@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import {Helmet} from 'react-helmet';
 import Body from './components/body/index.js';
 
 
@@ -18,6 +19,10 @@ class App extends Component {
     initializeReactGA()
     return (
       <div>
+        <Helmet>
+          <title>Hakan Taskirmaz Portfolio</title>
+          <meta name="description" content="Portfolio van Hakan Taskirmaz. Vind hier projecten & personalia van hakan taskirmaz"/>
+        </Helmet>
         <Body />
       </div>
     );
