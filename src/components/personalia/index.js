@@ -8,8 +8,8 @@ class Hakan extends React.Component {
     return (
       <div id="personalia">
         <Helmet>
-          <title>Personalia Hakan</title>
-          <meta name="description" content="Informatie over Hakan - Bekijk de cv van Hakan Taskirmaz. Student aan Hogeschool Rotterdam, studeert Informatica. Woont in Den Haag"/>
+          <title>Personalia - Hakan</title>
+          <meta name="description" content="Informatie over Hakan - Bekijk de cv van Hakan Taskirmaz. Projecten van Hakan Taskirmaz zijn Project C, D, Kapsalon Asya en een Discord bot. Student aan Hogeschool Rotterdam, studeert Informatica. Woont in Den Haag"/>
         </Helmet>
         <div id="body">
 

@@ -25,8 +25,8 @@ class Body extends React.Component {
     return (
       <div className="body">
         <Helmet>
-          <title>Hakan Taskirmaz</title>
-          <meta name="description" content="Hakan Taskirmaz. Bekijk de portfolio van Hakan - Hier zijn projecten en de personalia van Hakan Taskirmaz te vinden. Student aan Hogeschool Rotterdam, studeert Informatica. Woont in Den Haag "/>
+          <title>Portfolio - Hakan Taskirmaz</title>
+          <meta name="description" content="Bekijk projecten van Hakan Taskirmaz - Projecten van Hakan Taskirmaz zijn Project C, D, Kapsalon Asya en een Discord bot - Bekijk projecten en de personalia van Hakan Taskirmaz. Student aan Hogeschool Rotterdam, studeert Informatica. Instagram Hakan_tkm. "/>
         </Helmet>
         <h1>Projecten</h1>
         <div className="projecten">
