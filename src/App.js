@@ -22,7 +22,7 @@ class App extends Component {
         <Helmet>
           <title>Hakan Taskirmaz Portfolio</title>
           <meta name="description" content="Portfolio van Hakan Taskirmaz. Vind hier projecten & personalia van hakan taskirmaz"/>
-        </Helmet>
+        </Helmet>        
         <Body />
       </div>
     );

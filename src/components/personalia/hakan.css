@@ -13,8 +13,17 @@
     flex-direction: column-reverse;
     margin: 10px auto 10px auto;
   }
+  #content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+    border-bottom: 1px solid rgb(63, 63, 63);
+  }
   #headshot_img{
     width: 250px;
+  }
+  #beschrijving{
+    margin: 10px auto 15px auto;
   }
 }
 
@@ -22,8 +31,35 @@
   #body {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black
+  }
+  #content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(63, 63, 63);
   }
   #headshot_img{
     width: 300px;
   }
+  #voordelen{
+    margin: 10px auto 15px auto;
+  }
+  #nadelen{
+    margin: 10px auto 15px auto;
+  }
+  
+  
 }
+
+#center{
+  margin:auto;
+  text-align: center;
+}
+
+#alignLeft{
+  text-align: left;
+}
+
+

@@ -10,6 +10,7 @@ import personalia from './components/personalia';
 import opleiding from './components/opleiding'
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
 import Footer from './components/footer/index.js'
+import Stage from './components/projectDetailed/stage/index.js';
 
 const App = app;
 const Personalia = personalia
@@ -49,6 +50,7 @@ const routing = (
         <Switch>
           <Route exact path="/" component={App} />
           <Route path="/personalia" component={Personalia} />
+          <Route path="/stage" component={Stage}/>
           {/* <Route path="/vaardigheden" component={skills} /> */}
           {/* <Route path="/contact" component={Contact} /> */}
           <Route path="/opleiding" component={Opleiding} />

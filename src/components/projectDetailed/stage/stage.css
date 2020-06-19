@@ -1,0 +1,78 @@
+*{
+    color:white;
+}
+
+/* ///Kop////////////////////////////////////////// */
+#kop{
+    background-image: url("../../img/projects/background.jpg");
+    background-blend-mode: lighten;
+    /* background-size:contain; */
+    min-height:300px;
+    height:auto;
+    margin-top: 10px;
+    /* border: 1px solid yellow; */
+    text-align:center;
+    border-radius: 5px;
+}
+#imageLogo{
+    height:100px;
+    object-fit: contain;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* /reflectie//////////////////////////////////// */
+#reflectie{
+    /* background-color: #8080806b; */
+    margin: auto;
+    border-radius: 5px;
+}
+/* //////////////////////////////////////////////// */
+
+
+
+/* //TheBigThree/////////////////////////////////// */
+@media only screen and (min-width: 800px) {
+  #theBigThree {
+    margin-top: 20px;
+    background-color:#d5d5d563;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #theBigThree {
+    margin-top: 20px;
+    background-color:#d5d5d563;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-align:center;
+  }
+}
+
+#opdracht{
+    display: grid;
+    grid-template-columns: 1fr;    
+    /* background-color:#d5d5d58a; */
+}
+
+#werkwijze{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color:#d5d5d58a; */
+}
+
+#leerdoelen{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color:#d5d5d58a; */
+}
+/* //////////////////////////////////////////////// */
+#alignLeft{
+  text-align:left;
+}

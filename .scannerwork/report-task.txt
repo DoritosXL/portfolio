@@ -1,0 +1,6 @@
+projectKey=portfolio
+serverUrl=http://35.196.231.249:10003
+serverVersion=7.6.0.21501
+dashboardUrl=http://35.196.231.249:10003/dashboard?id=portfolio
+ceTaskId=AW6DnLaapaDJaXeVnxEZ
+ceTaskUrl=http://35.196.231.249:10003/api/ce/task?id=AW6DnLaapaDJaXeVnxEZ
