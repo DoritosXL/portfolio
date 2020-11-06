@@ -14,6 +14,7 @@ class Project extends Component {
           </div>
           <div id="project_element_item">
             {this.props.description}
+            {this.props.link}
           </div>
         
       </div>

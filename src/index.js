@@ -4,8 +4,8 @@ import './index.css';
 import { Route, NavLink, Switch, BrowserRouter as Router } from 'react-router-dom';
 import app from './App';
 import * as serviceWorker from './serviceWorker';
-import personalia from './components/personalia';
-// import body from './components/body';
+// import personalia from './components/personalia';
+import projects from './components/projects';
 // import contact from './components/contact';
 import opleiding from './components/opleiding'
 import cv from '../src/components/documents/CV-Hakan-Taskirmaz.pdf';
@@ -13,7 +13,8 @@ import Footer from './components/footer/index.js'
 import Stage from './components/projectDetailed/stage/index.js';
 
 const App = app;
-const Personalia = personalia
+// const Personalia = personalia
+const Projects = projects
 // const Body = body;
 // const Contact = contact;
 const Opleiding = opleiding;
@@ -27,10 +28,10 @@ const routing = (
             { color: 'white' }
           }>Project</NavLink>
         </div>
-        <div id="personalia">
-          <NavLink className="koppen" to="/personalia" exact activeStyle={
+        <div id="Projects">
+          <NavLink className="koppen" to="/projects" exact activeStyle={
             { color: 'white' }
-          }>Personalia</NavLink>
+          }>Projects </NavLink>
         </div>
         {/* <div id="contact">
           <NavLink className="koppen" to="/contact" exact activeStyle={
@@ -49,7 +50,7 @@ const routing = (
       <div className="content">
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/personalia" component={Personalia} />
+          <Route path="/projects" component={Projects} />
           <Route path="/stage" component={Stage}/>
           {/* <Route path="/vaardigheden" component={skills} /> */}
           {/* <Route path="/contact" component={Contact} /> */}

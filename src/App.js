@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Helmet} from 'react-helmet';
-import Body from './components/body/index.js';
+import Personalia from './components/personalia/index.js'
 
 
 // import ML from '../src/img/projects/ML.png';
@@ -23,7 +23,7 @@ class App extends Component {
           <title>Hakan Taskirmaz Portfolio</title>
           <meta name="description" content="Portfolio van Hakan Taskirmaz. Vind hier projecten & personalia van hakan taskirmaz"/>
         </Helmet>        
-        <Body />
+        <Personalia />
       </div>
     );
   }

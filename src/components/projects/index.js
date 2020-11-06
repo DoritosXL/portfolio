@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import "./body.css";
+import "./projects.css";
 import { Helmet } from "react-helmet";
 import Project from "../project/index.js";
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -23,9 +23,9 @@ const project_D = `Project D gaat over 'Machine Learning'. In dit project is geb
 
 const discord_bot = `Een discord bot gemaakt om aan te tonen hoe simpel het is om er één te maken. Opzet en basis functies zijn gerealiseerd en te vinden op Github.`;
 
-const kapsalon_asya = `Kapsalon Asya is een kappers zaak te Leyweg in Den Haag. De website is gemaakt met Wordpress en te vinden op kapsalonasya.nl`;
+const kapsalon_asya = `Kapsalon Asya is een kappers zaak te Leyweg in Den Haag. De website is gemaakt met Wordpress en te vinden op`;
 
-class Body extends React.Component {
+class Projects extends React.Component {
   render() {
     return (
       <div className="body">
@@ -98,6 +98,7 @@ class Body extends React.Component {
                 </a>
               }
               description={kapsalon_asya}
+              link={<a href="kapsalonasya.nl"> kapsalonasya.nl</a>}
             />
 
             <Project
@@ -125,4 +126,4 @@ class Body extends React.Component {
   }
 }
 
-export default Body;
+export default Projects;

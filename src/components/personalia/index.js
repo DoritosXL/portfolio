@@ -1,36 +1,42 @@
 import React from "react"
 import "./hakan.css"
 import { Helmet } from "react-helmet"
-import hakan from "../img/hakan.jpg"
 
 class Hakan extends React.Component {
   render() {
     return (
       <div id="personalia">
         <Helmet>
-          <title>Personalia - Hakan</title>
+          <title>Wie ben ik - Hakan</title>
           <meta
             name="description"
-            content="Informatie over Hakan - Bekijk de cv van Hakan Taskirmaz. Projecten van Hakan Taskirmaz zijn Project C, D, Kapsalon Asya en een Discord bot. Student aan Hogeschool Rotterdam, studeert Informatica. Woont in Den Haag"
+            content="Informatie over Hakan - Bekijk de cv van Hakan Taskirmaz. Projecten van Hakan Taskirmaz. Student aan Hogeschool Rotterdam, studeert Informatica. Woont in Den Haag"
           />
         </Helmet>
         <div id="body">
-          <div id="headshot">
-            <img id="headshot_img" alt="hakan" src={hakan} height="auto" />
-          </div>
-
-          <div id="headshot-beschrijving">
-            Mijn naam is Hakan Taskirmaz, {new Date().getFullYear() - 1995} Jaar
-            oud en woon in Den Haag.
-            <p>
-              Developer bij SSC-ICT Onderdeel van de ministerie van binnenlandse
-              zaken en koninkrijksrelaties
-            </p>
-            <p>{/* meer informatie hier */}</p>
+          <div id="center">
+            <h1>Hallo!<span role="img" aria-label="waving_hand">👋</span></h1>
+            <div id="introduction">
+              Mijn naam is Hakan en ik ben een enthousiast Full Stack Developer. 
+              In mijn vrije tijd werk ik aan kleinschalige projecten. Hier valt mijn portfolio ook onder!
+            </div>            
           </div>
         </div>
 
-        <div id="content">
+        <div id="trofeeën">
+          <div id="programmeertalen">
+            Trofee component (programmeertalen)
+          </div>
+          <div id="framework">
+            Trofee component (framework)
+          </div>
+          <div id="werkwijze">
+            Trofee component (werkwijze)
+          </div>
+          
+        </div>
+
+        {/* <div id="content">
           <div id="headshot">
             <h3>Spreektalen</h3>
           </div>
@@ -125,7 +131,7 @@ class Hakan extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
