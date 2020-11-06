@@ -26,7 +26,7 @@ const routing = (
         <div id="projecten">
           <NavLink className="koppen" to="/" exact activeStyle={
             { color: 'white' }
-          }>Project</NavLink>
+          }>Home</NavLink>
         </div>
         <div id="Projects">
           <NavLink className="koppen" to="/projects" exact activeStyle={
