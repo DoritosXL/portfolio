@@ -6,8 +6,17 @@ import Achievement from "../achievements/index.js"
 import Javascript from "../img/achievements/javascript.svg"
 import Typescript from "../img/achievements/typescript.svg"
 import Python from "../img/achievements/python.svg"
+import CSharp from "../img/achievements/C_Sharp_logo.png"
+import Php from "../img/achievements/php.png"
+import Java from "../img/achievements/java.svg"
 
 import ReactIcon from "../img/achievements/react.png"
+import DotNet from "../img/achievements/net.png"
+import Bootstrap from "../img/achievements/bootstrap.png"
+import Wordpress from "../img/achievements/wordpress.png"
+
+import Scrum from "../img/achievements/agile.svg"
+import Trello from "../img/achievements/trello.png"
 
 class Hakan extends React.Component {
   render() {
@@ -41,137 +50,51 @@ class Hakan extends React.Component {
           <div id="trofeeën_programmeertaal">
             <h3>Programmeertalen</h3>
             <div id="trofeeën_programmeertaal_detail">
-              <Achievement
-                img={Javascript}
-                achievement={"Javascript"}
-                achieved={true}
-              />
-              <Achievement
-                img={Typescript}
-                achievement={"Typescript"}
-                achieved={true}
-              />
-              <Achievement
-                img={Python}
-                achievement={"Python"}
-                achieved={false}
-              />
-              
-              
+              <Achievement img={Javascript} achievement={"Javascript"} />
+              <Achievement img={Typescript} achievement={"Typescript"} />
+              <Achievement img={Python} achievement={"Python"} />
+              <Achievement img={Php} achievement={"PHP"} />
+              <Achievement img={CSharp} achievement={"C#"} />
+              <Achievement img={Java} achievement={"Java"} />
             </div>
           </div>
 
           <div id="trofeeën_framework">
-            <h3>Framework</h3>
+            <h3>Framework & CMS</h3>
             <div id="trofeeën_framework_detail">
               <Achievement
                 img={ReactIcon}
                 achievement={"React"}
                 achieved={true}
               />
+              <Achievement img={DotNet} achievement={".Net"} achieved={true} />
+              <Achievement
+                img={Bootstrap}
+                achievement={"Bootstrap"}
+                achieved={true}
+              />
+              <Achievement
+                img={Wordpress}
+                achievement={"Wordpress"}
+                achieved={true}
+              />
             </div>
-          </div>
-
-          {/* <h3>Werkwijze</h3>
-          <div id="werkwijze">*Work in progress*</div> */}
-        </div>
-
-        {/* <div id="content">
-          <div id="headshot">
-            <h3>Spreektalen</h3>
-          </div>
-          <div id="beschrijving">
-            <ul>
-              <li>Nederlands, vloeiend</li>
-              <li>Engels, goed</li>
-              <li>Turks, goed</li>
-            </ul>
           </div>
         </div>
 
-        <div id="content">
-          <div id="headshot">
-            <h3>Programmeertalen</h3>
-          </div>
-          <div id="beschrijving">
-            <ul>
-              <li>React, goed</li>
-              <li>Javascript, goed</li>
-              <li>Typescript, basiskennis</li>
-              <li>Java, basiskennis</li>
-              <li>PHP, basiskennis</li>
-              <li>HTML5, goed</li>
-              <li>CSS3, goed</li>
-            </ul>
+        <div id="trofeeën">
+          <div id="trofeeën_werkwijze">
+            <h3>Project management</h3>
+            <div id="trofeeën_werkwijze_detail">
+              <Achievement img={Scrum} achievement={"Scrum"} achieved={true} />
+              <Achievement
+                img={Trello}
+                achievement={"Trello"}
+                achieved={true}
+              />
+            </div>
           </div>
         </div>
-
-        <div id="center">
-          <h2>SWOT analyse</h2>
-          <h2>Intern</h2>
-          <div id="content">
-            <div id="voordelen">
-              <h3>Sterke kanten</h3>
-              <div id="alignLeft">
-                <ul>
-                  <li>Ik ben goed in zelfstandig werken</li>
-                  <li>
-                    Wat bij mijn succes aandraagt is voornamelijk het feit dat
-                    ik de tijd neem voor mijn werk
-                  </li>
-                  <li>
-                    Ik ben aan deze studie begonnen omdat informatica waaronder
-                    coderen mijn interesses aanspreekt
-                  </li>
-                  <li>
-                    Het behalen van mijn vorige opleidingen samen met alle
-                    nagelopen cursussen zijn mijn beste prestaties
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div id="nadelen">
-              <h3>Zwakken kanten</h3>
-              <div id="alignLeft">
-                <ul>
-                  <li>
-                    Verlies snel motivatie als ik ergens niet geïnteresseerd in
-                    ben
-                  </li>
-                  <li>Ik raak snel afgeleid</li>
-                  <li>Voorbereiding/ niet genoeg research doen</li>
-                  <li>
-                    Mijn prestaties worden veel beïnvloed door uitstelgedrag
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <h2>Extern</h2>
-          <div id="content">
-            <div id="voordelen">
-              <h3>Kansen voor je studie/loopbaan</h3>
-              <div id="alignLeft">
-                <ul>
-                  <li>
-                    Doorlopende projecten waar ik actief aan mee kan doen, met
-                    als doel mezelf verder ontwikkelen.
-                  </li>
-                  <li>Meer kennis opnemen en het geleerde toepassen.</li>
-                </ul>
-              </div>
-            </div>
-            <div id="nadelen">
-              <h3>Bedreigingen voor je studie/loopbaan</h3>
-              <div id="alignLeft">
-                <ul>
-                  <li>Vaker voorkomend uitstelgedrag</li>
-                  <li>Motivatie kan een groot probleem zijn.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     )
   }

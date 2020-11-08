@@ -7,25 +7,95 @@
   color:white;
 }
 
-@media only screen and (max-width: 800px) {
+#personalia{
+  margin:auto;
+}
+
+@media only screen and (max-width: 500px) {  
   #body {
-    display: flex;
-    flex-direction: column-reverse;
+    display: grid;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-size:20px;
+    margin:auto;
+  }
+  #introduction{
+    margin-bottom:10px;
+  }
+
+  #trofeeën_programmeertaal{
+    border-bottom: 1px solid black;
+  }
+  #trofeeën_programmeertaal_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:12px;  
+  }
+  
+  #trofeeën_framework{    
+    border-bottom: 1px solid black;
+  }
+  #trofeeën_framework_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:12px;  
+  }
+  #trofeeën_werkwijze_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:12px;   
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #body {
+    display: grid;
     margin: 10px auto 10px auto;
+    margin-bottom:20px;
+    border-bottom: 1px solid black;
   }
-  #content {
-    display: flex;
-    flex-direction: column;
-    margin: 10px auto 10px auto;
-    border-bottom: 1px solid rgb(63, 63, 63);
-    background-color: #80808036;
-    border-radius: 5px;
+
+  #introduction{
+    width:auto;
+    margin:auto;
+    margin-bottom:10px;
   }
-  #headshot_img{
-    width: 250px;
+
+  #trofeeën{
+    font-size:20px;
+    border-bottom: 1px solid black;
+    padding-bottom:10px;
+    margin-bottom:10px;
   }
-  #beschrijving{
-    margin: 10px auto 15px auto;
+
+  #trofeeën_programmeertaal{
+    padding-right:10px;
+  }
+
+  #trofeeën_programmeertaal_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:12px;  
+  }
+
+  #trofeeën_framework{    
+    margin-left:10px;
+  }
+
+  #trofeeën_framework_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:12px;  
+  }
+
+  #trofeeën_werkwijze{    
+    margin-left:10px;
+  }
+
+  #trofeeën_werkwijze_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:12px;   
   }
 }
 
@@ -80,17 +150,16 @@
     font-size:12px;  
   }
 
-  #werkwijze{
-    
+  #trofeeën_werkwijze{    
+    margin-left:10px;
   }
 
-  #content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgb(63, 63, 63);
-    background-color: #80808036;
-    border-radius: 5px;
+  #trofeeën_werkwijze_detail{
+    width:450px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    font-size:12px; 
   }
   #headshot_img{
     width: 300px;

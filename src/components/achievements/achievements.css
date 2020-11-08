@@ -12,11 +12,10 @@
 }
 
 #achievement_detail_not_achieved{
-  margin: auto;
   width:60px;
   height:60px;
-  /* opacity:20%;
-  color:whitesmoke; */
+  margin-left:10px;
+  margin-right:10px;
 }
 
 #achievement_detail_achieved img{
