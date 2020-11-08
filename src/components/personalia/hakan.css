@@ -146,6 +146,10 @@
     margin-left:10px;
   }
 
+  #trofeeën_framework_detail::-webkit-scrollbar {
+    display: none;
+  }
+
   #trofeeën_framework_detail{
     width:450px;
     display: flex;
@@ -156,6 +160,10 @@
 
   #trofeeën_werkwijze{    
     margin-left:10px;
+  }
+
+  #trofeeën_werkwijze_detail::-webkit-scrollbar {
+    display: none;
   }
 
   #trofeeën_werkwijze_detail{
