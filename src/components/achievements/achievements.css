@@ -1,0 +1,29 @@
+#achievement{
+  margin:auto;  
+  margin-bottom:50px;
+  text-align:center;
+}
+
+#achievement_detail_achieved{
+  width:60px;
+  height:60px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#achievement_detail_not_achieved{
+  margin: auto;
+  width:60px;
+  height:60px;
+  /* opacity:20%;
+  color:whitesmoke; */
+}
+
+#achievement_detail_achieved img{
+  width:100%;
+  border-radius:20%;
+}
+#achievement_detail_not_achieved img{
+  width:100%;
+  border-radius:20%;
+}

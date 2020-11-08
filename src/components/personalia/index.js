@@ -1,6 +1,13 @@
 import React from "react"
 import "./hakan.css"
 import { Helmet } from "react-helmet"
+import Achievement from "../achievements/index.js"
+
+import Javascript from "../img/achievements/javascript.svg"
+import Typescript from "../img/achievements/typescript.svg"
+import Python from "../img/achievements/python.svg"
+
+import ReactIcon from "../img/achievements/react.png"
 
 class Hakan extends React.Component {
   render() {
@@ -15,25 +22,58 @@ class Hakan extends React.Component {
         </Helmet>
         <div id="body">
           <div id="center">
-            <h1>Hallo!<span role="img" aria-label="waving_hand">👋</span></h1>
+            <h2>
+              Hallo!
+              <span role="img" aria-label="waving_hand">
+                👋
+              </span>
+            </h2>
             <div id="introduction">
-              Mijn naam is Hakan en ik ben een enthousiast Full Stack Developer. 
-              In mijn vrije tijd werk ik aan kleinschalige projecten. Hier valt mijn portfolio ook onder!
-            </div>            
+              Mijn naam is Hakan en ik ben een enthousiast Full Stack Developer.
+              In mijn vrije tijd werk ik aan kleinschalige projecten. Hier valt
+              mijn portfolio ook onder!
+            </div>
           </div>
         </div>
 
+        <h3>Bekijk mijn Trofeeën!</h3>
         <div id="trofeeën">
-          <div id="programmeertalen">
-            Trofee component (programmeertalen)
+          <div id="trofeeën_programmeertaal">
+            <h3>Programmeertalen</h3>
+            <div id="trofeeën_programmeertaal_detail">
+              <Achievement
+                img={Javascript}
+                achievement={"Javascript"}
+                achieved={true}
+              />
+              <Achievement
+                img={Typescript}
+                achievement={"Typescript"}
+                achieved={true}
+              />
+              <Achievement
+                img={Python}
+                achievement={"Python"}
+                achieved={false}
+              />
+              
+              
+            </div>
           </div>
-          <div id="framework">
-            Trofee component (framework)
+
+          <div id="trofeeën_framework">
+            <h3>Framework</h3>
+            <div id="trofeeën_framework_detail">
+              <Achievement
+                img={ReactIcon}
+                achievement={"React"}
+                achieved={true}
+              />
+            </div>
           </div>
-          <div id="werkwijze">
-            Trofee component (werkwijze)
-          </div>
-          
+
+          {/* <h3>Werkwijze</h3>
+          <div id="werkwijze">*Work in progress*</div> */}
         </div>
 
         {/* <div id="content">
