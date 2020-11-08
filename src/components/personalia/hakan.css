@@ -130,6 +130,10 @@
     border-right:1px solid black;
   }
 
+  #trofeeën_programmeertaal_detail::-webkit-scrollbar {
+    display: none;
+  }
+
   #trofeeën_programmeertaal_detail{   
     width:450px;
     display: flex;
