@@ -3,6 +3,7 @@ import "./projects.css";
 import { Helmet } from "react-helmet";
 import Project from "../project/index.js";
 import CircularProgress from '@material-ui/core/CircularProgress';
+import stageLink from '../documents/UBRijk-artikel-Hakan.pdf';
 
 import discord_img from "../img/projects/discord.png";
 
@@ -41,7 +42,7 @@ class Projects extends React.Component {
           <div id="project_container">
             <Project
               title={
-                <a id="link" href="/stage">
+                <a id="link" href={stageLink} target="_blank" rel="noopener noreferrer">
                   <Suspense fallback={<CircularProgress/>}>
                   <img id="project_img" src={require('../img/projects/stage.svg')} alt="ML"></img>
                   </Suspense>
