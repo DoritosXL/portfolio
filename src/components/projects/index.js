@@ -13,7 +13,7 @@ import kapsalon_asya_img from "../img/projects/About.png";
 
 import project_C_img from "../img/projects/Artic.svg";
 
-// import stage_img from "../img/projects/stage.svg";
+import stage_img from "../img/projects/stage.svg";
 
 const stage = `Tijdens stage bij SSC-ICT heb ik gewerkt aan een front-end web applicatie gemaakt in ReactJS. Klik op de afbeelding voor meer informatie over mijn stageperiode.`;
 
@@ -44,7 +44,7 @@ class Projects extends React.Component {
               title={
                 <a id="link" href={stageLink} target="_blank" rel="noopener noreferrer">
                   <Suspense fallback={<CircularProgress/>}>
-                  <img id="project_img" src={require('../img/projects/stage.svg')} alt="ML"></img>
+                  <img id="project_img" src={stage_img} alt="Stage MinBZK"></img>
                   </Suspense>
                 </a>
               }
