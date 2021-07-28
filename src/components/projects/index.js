@@ -50,6 +50,38 @@ class Projects extends React.Component {
               title={
                 <a
                   id="link"
+                  href="https://ha-pictures.web.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Suspense fallback={<CircularProgress />}>
+                    <img id="project_img" src={base_logo} alt="Ha-pictures" />
+                  </Suspense>
+                </a>
+              }
+              description={ha_pictures}
+            />
+            
+            <Project
+              title={
+                <a
+                  id="link"
+                  href="https://fitness-pall.web.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Suspense fallback={<CircularProgress />}>
+                    <img id="project_img" src={base_logo} alt="Fitness-Pall" />
+                  </Suspense>
+                </a>
+              }
+              description={fitness_pall}
+            />
+
+            <Project
+              title={
+                <a
+                  id="link"
                   href={stageLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -133,37 +165,6 @@ class Projects extends React.Component {
               description={project_C}
             />
 
-            <Project
-              title={
-                <a
-                  id="link"
-                  href="https://fitness-pall.web.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Suspense fallback={<CircularProgress />}>
-                    <img id="project_img" src={base_logo} alt="Fitness-Pall" />
-                  </Suspense>
-                </a>
-              }
-              description={fitness_pall}
-            />
-
-            <Project
-              title={
-                <a
-                  id="link"
-                  href="https://ha-pictures.web.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Suspense fallback={<CircularProgress />}>
-                    <img id="project_img" src={base_logo} alt="Ha-pictures" />
-                  </Suspense>
-                </a>
-              }
-              description={ha_pictures}
-            />
             {/* Nieuwe project
             <Project title={} description={} />*/}
           </div>
