@@ -8,7 +8,7 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import projects from './components/projects';
 // import contact from './components/contact';
 import opleiding from './components/opleiding'
-import cv from '../src/components/documents/CV - Hakan Taskirmaz - 2021.pdf';
+import cv from '../src/components/documents/CV (prive) - Hakan Taskirmaz - 2021.pdf';
 import Footer from './components/footer/index.js'
 import Stage from './components/projectDetailed/stage/index.js';
 

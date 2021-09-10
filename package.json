@@ -7,6 +7,7 @@
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.0.1",
+    "doritosxl-login-page": "^0.1.1",
     "gh-pages": "^2.0.1",
     "helmet": "^3.21.1",
     "pwa-asset-generator": "^4.1.1",
